@@ -1,9 +1,7 @@
 import React from "react";
-import ExpenseItem from "./components/ExpenseItem";
-import ExpenseDate from "./components/ExpenseDate";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
     const expenses = [
         {
             title: 'Book',
