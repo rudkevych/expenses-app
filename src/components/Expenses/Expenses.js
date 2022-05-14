@@ -17,9 +17,10 @@ const Expenses = (props) => {
             <ExpenseFilter selectedYear={filteredYear} onFilterYearChange={yearChangeHandler}/>
             {props.expenses.map(expense =>
                 <ExpenseItem
-                title={expense.title}
-                amount={expense.amount}
-            />)}
+                    key={expense.id}
+                    title={expense.title}
+                    amount={expense.amount}
+                />)}
         </Card>
     )
 
