@@ -15,12 +15,12 @@ export const expensesStore = [
         id: 'el3',
         title: 'Perfume',
         amount: 80.3,
-        date: new Date(2020, 5, 12)
+        date: new Date(2021, 5, 12)
     },
     {
         id: 'el4',
         title: 'Mcdonalds',
         amount: 8,
-        date: new Date(2020, 3, 26)
+        date: new Date(2022, 3, 26)
     }
 ];
