@@ -21,6 +21,6 @@ export const expensesStore = [
         id: 'el4',
         title: 'Mcdonalds',
         amount: 8,
-        date: new Date(2022, 3, 26)
+        date: new Date(2021, 3, 26)
     }
 ];
